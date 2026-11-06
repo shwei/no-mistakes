@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.112.0](https://github.com/kunchenguid/no-mistakes/compare/v1.111.0...v1.112.0) (2026-11-06)
+
+
+### Features
+
+* pin reviewer selection independently for each run ([#1635](https://github.com/kunchenguid/no-mistakes/issues/1635)) ([65042c3](https://github.com/kunchenguid/no-mistakes/commit/65042c39f7f0be0283db0d3e956b81db8a517a44))
+
+
+### Bug Fixes
+
+* **agent:** allow authentic backing Git metadata reads ([#1720](https://github.com/kunchenguid/no-mistakes/issues/1720)) ([c86ee79](https://github.com/kunchenguid/no-mistakes/commit/c86ee79a2be38400cab93de69d6ec343aafab891))
+* **daemon:** disable Windows task battery and execution-time limits ([#1715](https://github.com/kunchenguid/no-mistakes/issues/1715)) ([474a2d3](https://github.com/kunchenguid/no-mistakes/commit/474a2d3d7a68ecfec2e781c13f34cf2169bc504c))
+* discover intent in the caller's configured account home ([#1721](https://github.com/kunchenguid/no-mistakes/issues/1721)) ([eb3d604](https://github.com/kunchenguid/no-mistakes/commit/eb3d604922aad052f0e201775b56208861c02f08))
+* **git:** verify gate identity before configuration writes ([#1719](https://github.com/kunchenguid/no-mistakes/issues/1719)) ([91ee9b6](https://github.com/kunchenguid/no-mistakes/commit/91ee9b69c67b8b58bf39dd5f634fd4b8764f1bac))
+* **pipeline:** bind GitHub PRs to the successfully pushed commit ([#1722](https://github.com/kunchenguid/no-mistakes/issues/1722)) ([35cf603](https://github.com/kunchenguid/no-mistakes/commit/35cf6039b8b95b26e6823875a4226783f1a9fc92))
+* **pipeline:** wait for owned PR updates to settle ([#1718](https://github.com/kunchenguid/no-mistakes/issues/1718)) ([36c1de7](https://github.com/kunchenguid/no-mistakes/commit/36c1de76d493f33d92dc646d08513660c0d106be))
+* **skill:** prefer blocking waits over status polling ([#1716](https://github.com/kunchenguid/no-mistakes/issues/1716)) ([32438b9](https://github.com/kunchenguid/no-mistakes/commit/32438b96c4252b15e3b2cd1a16131f70b75ae1f3))
+
 ## [1.111.0](https://github.com/kunchenguid/no-mistakes/compare/v1.110.0...v1.111.0) (2026-11-05)
 
 
